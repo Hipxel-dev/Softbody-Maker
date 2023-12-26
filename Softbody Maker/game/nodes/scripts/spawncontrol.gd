@@ -126,6 +126,7 @@ func _physics_process(delta: float) -> void:
 				
 			closest_node.connections = []
 			
+			
 			closest_node.remove_from_group("node")
 			closest_node.health = 0
 			
