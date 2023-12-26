@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://game/nodes/scripts/basic.gd" type="Script" id=1]
+[ext_resource path="res://art/circ.png" type="Texture" id=2]
+
+[node name="sprite" type="Sprite" groups=["node"]]
+texture = ExtResource( 2 )
+script = ExtResource( 1 )
